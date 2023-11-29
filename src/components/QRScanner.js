@@ -12,6 +12,7 @@ const QRScanner = () => {
       uniqueArr.push(generateUniqueQRNumber());
     }
     setData(uniqueArr);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [countQR]);
 
   const QRGenerate = () => {
