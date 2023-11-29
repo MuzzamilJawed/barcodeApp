@@ -26,7 +26,7 @@ const QRScanner = () => {
         Math.pow(10, count - 1) + Math.random() * 9 * Math.pow(10, count - 1)
       );
     }
-    const URL = "http://192.168.0.106:3001/";
+    const URL = window.location.href;
     const part1 = generateRandomDigits(4);
     const part2 = generateRandomDigits(5);
     const part3 = generateRandomDigits(4);
